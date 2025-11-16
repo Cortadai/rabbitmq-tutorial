@@ -1,4 +1,1 @@
-# RabbitMQ tutorial
-RabbitMQ introduction for Topics, Consumers, Producers...
-
-* Learn How to Use RabbitMQ in a Spring Boot App
+Este repositorio es un **proyecto tutorial de Spring Boot que demuestra la integración con RabbitMQ**, un sistema de mensajería distribuida. La aplicación implementa el patrón Producer-Consumer (Productor-Consumidor) mostrando cómo enviar y recibir mensajes a través de colas de RabbitMQ utilizando Spring AMQP. El proyecto incluye configuración de exchanges de tipo Topic, colas, routing keys, y bindings entre ellos. Proporciona dos flujos de mensajería: uno para mensajes de texto plano y otro para mensajes en formato JSON (utilizando DTOs de usuario), ambos expuestos a través de controladores REST que permiten enviar mensajes mediante endpoints HTTP. Los consumidores están configurados como listeners que automáticamente procesan los mensajes cuando llegan a sus respectivas colas, registrando la información en logs. Es un ejemplo didáctico completo para aprender los conceptos fundamentales de mensajería asíncrona con RabbitMQ en el ecosistema Spring.
